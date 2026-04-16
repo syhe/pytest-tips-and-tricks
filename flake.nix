@@ -29,6 +29,7 @@
           with pkgs;
           [
             uv
+            just
           ]
           ++ lib.optionals (hooks_package == pkgs.prek) [
             # Wrapper to make pre-commit accessible when using prek
