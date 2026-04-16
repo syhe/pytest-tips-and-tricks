@@ -1,0 +1,17 @@
+[project]
+name = "pytest-tips-and-tricks"
+version = "0.1.0"
+description = "Pytest Tips & Tricks"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "pytest>=9.0.3",
+]
+
+[tool.pyright]
+venvPath = "."
+venv = ".venv"
+pythonVersion = "3.14"
+reportUnnecessaryComparison = true
+# or "standard" or "strict"
+typeCheckingMode = "basic"
